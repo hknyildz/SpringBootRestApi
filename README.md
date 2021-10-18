@@ -1,4 +1,4 @@
-# SpringBootRestApi
+## SpringBootRestApi
 
 An application to demonstrate how Spring Boot, Spring Data, and Postgres can be used together to create a simple RESTful API using an embedded tomcat server.
 
