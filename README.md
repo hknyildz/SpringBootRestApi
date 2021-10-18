@@ -9,7 +9,7 @@ An application to demonstrate how Spring Boot, Spring Data, and Postgres can be 
 # Usage
 - mvnv package
 - cd target
-- java -jar springBootApi-1.0-SNAPSHOT.jar
+- java -jar SpringBootRestApi-0.0.1-SNAPSHOT.jar
 - Verify the server is running @ http://localhost:8080/bill
  # Features
 
