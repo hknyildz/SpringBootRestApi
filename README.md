@@ -52,7 +52,7 @@ PROJECT_FOLDER
 └──[target]              #Java build files, auto-created after running java build: mvn install
 │  └──[classes]
  ```
-# Response Examples
+# Request Examples
 - Add new purchasing specialist
   ![PostPs](https://user-images.githubusercontent.com/68272945/137669022-c4bbf6a9-5f3b-4e97-afcc-140ae27ea9e2.PNG)
   
