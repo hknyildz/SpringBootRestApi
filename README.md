@@ -5,12 +5,18 @@ An application to demonstrate how Spring Boot, Spring Data, and Postgres can be 
 # Dependicies
 - SpringBoot
 - Maven
+- Docker
 - Postgres
 # Usage
 - mvnv package
 - cd target
 - java -jar SpringBootRestApi-0.0.1-SNAPSHOT.jar
 - Verify the server is running @ http://localhost:8080/bill
+# 🔨 Dockerize the App
+- mvn clean install
+- docker build . -t springbootapi:1.0
+- docker ps
+- docker run --net=host --name springbootapi -d -p 8080:8080 springbootapi:1.0
  # Features
 
   - Adding Purchasing Specialist
