@@ -18,12 +18,20 @@ An application to demonstrate how Spring Boot, Spring Data, and Postgres can be 
     - Each purchasing specialist is identified by First Name, Last Name and E-mail. The Same Name and
     The transactions of people with surname information but with different email addresses are carried out in a separate way
     it is evaluated.
+  - Getting list of the all purchasing specialists
     
   - Deleting Purchasing Specialist
     - Deleting the purchasing specialist by Id.
 
   - Adding bills
     - the amount in the new bill is sum with the approved bills of the purchasing specialist. If the amount exceeds the limit, the          bill is not approved. if it does not exceed the bill is approved.
+  
+  - getting list of the
+    - all bills
+    - all accepted bills
+    - all accepted bills by purchasing specialist's id
+    - all declined bills
+    - all declined bills by purchasing specialist's id
     
    - Deleting bill
      - Deleting the bill by Id.
