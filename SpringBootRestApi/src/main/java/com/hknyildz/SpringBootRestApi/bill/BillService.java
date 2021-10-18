@@ -21,7 +21,6 @@ public class BillService {
     private static final String CURRENCY = "TR";
     private static final Long billValue = 0000L;
     private final BillRepository billRepository;
-    RestTemplate restTemplate = new RestTemplate();
     @Value("${app.limit}")
     private Long limit;
     private String billValueString;

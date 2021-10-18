@@ -59,6 +59,13 @@ public class PurchasingSpecialist {
     public PurchasingSpecialist() {
     }
 
+    public PurchasingSpecialist(Long id, String firstName, String lastName, String email) {
+        Id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+    }
+
     public Long getId() {
         return Id;
     }

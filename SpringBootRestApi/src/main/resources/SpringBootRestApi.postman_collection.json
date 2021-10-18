@@ -1,0 +1,245 @@
+{
+	"info": {
+		"_postman_id": "0fc40f80-0c00-41b6-a87b-94f8806ecf80",
+		"name": "SpringBootRestApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PostPs",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"onur\",\r\n  \"lastName\": \"gursoy\",\r\n  \"email\": \"onurgursoy@example.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/ps",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"ps"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/bill",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"bill"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeletePs",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/ps/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"ps",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostBill",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"hakan\",\r\n    \"lastName\": \"yildiz\",\r\n    \"email\": \"onurgursoy@example.com\",\r\n    \"amount\": 360,\r\n    \"productName\": \"printer\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/bill",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"bill"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetBills",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/bill",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"bill"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Accepted Bills",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/bill/accepted",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"bill",
+						"accepted"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Declined Bills",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/bill/declined",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"bill",
+						"declined"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Accepted Bills By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/bill/accepted/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"bill",
+						"accepted",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Declined Bills By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/bill/declined/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"bill",
+						"declined",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteBill",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/bill/5",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"bill",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
